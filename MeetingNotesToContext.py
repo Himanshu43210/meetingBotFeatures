@@ -22,7 +22,7 @@ Meeting Notes:
 
 - Discussing project updates and milestones.
 - Reviewing the marketing strategy for the upcoming product launch.
-- Brainstorming ideas for improving customer engagement.
+- Brainstorming ideas for improving customer engagement. 
 """
 
 conversation_context = generate_conversation(meeting_notes)
