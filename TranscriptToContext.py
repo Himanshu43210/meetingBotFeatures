@@ -2,8 +2,11 @@ import openai
 import boto3
 
 # Set up your OpenAI API credentials
-openai.api_key = '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'
+# openai.api_key = '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'
+openai.api_key = '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'
 
+userId = 'abc'
+objectId = 'a'
 def generate_conversation(meeting_notes):
     dynamicPrompt = '''
 please provide me the meeting notes for this diary text in the form of parsed JSON, with the title as meeting note and content as the resulting meeting note: '''
@@ -44,7 +47,7 @@ def list_files_in_bucket(bucket, aws_access_key, aws_secret_key):
 # Example usage
 bucket = 'meeting-bot-processed-files'
 input_file_key = 'transcript.txt'
-output_file_key = 'output1.txt'
+output_file_key = 'TranscriptToContext_' + userId + "_" + objectId + '.txt'  # 'output1.txt'
 aws_access_key = 'AKIAVSYBEZQGCM6UUNMM'
 aws_secret_key = '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'
 
