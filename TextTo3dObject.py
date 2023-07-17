@@ -1,10 +1,11 @@
-# #pip install virtualenv
-# #virtualenv shap_env
-# #source shap_env/bin/activate
-# # pip install -e .     ##  cd /notebooks/shap-e
-# #pip install cchardet chardet pyyaml ipywidgets boto3 zipfile pymongo
-# #pip install 'git+https://github.com/facebookresearch/pytorch3d.git'
-# # python textto3d.py    ## cd /notebooks/shap-e/shap_e/examples
+# git clone https://github.com/openai/shap-e.git
+#pip install virtualenv
+#virtualenv shap_env
+#source shap_env/bin/activate
+# pip install -e .     ##  cd /notebooks/shap-e
+#pip install cchardet chardet pyyaml ipywidgets boto3 zipfile pymongo
+#pip install 'git+https://github.com/facebookresearch/pytorch3d.git'
+# python textto3d.py    ## cd /notebooks/shap-e/shap_e/examples
 
 id = '01'
 
